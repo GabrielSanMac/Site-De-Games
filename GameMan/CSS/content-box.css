@@ -1,0 +1,185 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Arial;
+	background: #020202;
+}
+
+/*BIG-BOX*/
+.big-box{
+	margin: 50px auto;
+	padding: 20px;
+	position: relative;
+	width: 1160px;
+	height: 400px;
+	margin-top: 20px;
+}
+
+.big-box img{
+	position: absolute;
+	top: -22px;
+	right: -8%;
+	display: inline-block;
+	height: 105%;
+	max-width: 500px;
+	margin-right: 120px;
+	text-align: center;
+}
+
+.big-box #text{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 120px 90px;
+	display: inline-block;
+	width: 500px;
+}
+
+.big-box #text h1, .big-box #text p{
+	color: #fff;
+	padding: 5px;
+	font-weight: lighter;
+	margin-left: 10px;
+}
+
+.big-box #text h1{
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.big-box #text p{
+	font-size: 0.8em;
+	color: rgba(200,200,200,0.8);
+}
+
+.big-box #text a:link, .big-box #text a:visited{
+	padding: 18px 60px;
+	text-decoration: none;
+	margin-top: 20px;
+	display: inline-block;
+	background: rgba(200,200,200,0.4);
+	color: #fff;
+	font-size: 0.8em;
+	margin-left: 10px;
+}
+
+.big-box #text a:hover{
+	background: rgba(190,190,190,0.7);
+	border: 1px solid #fff;
+	transition: all 0.9s;
+}
+
+/*GRADIENTE THEME*/
+
+.orange-pink{
+	background: linear-gradient(120deg,  #cc610a, #cc1a99);
+}
+
+.black-red{
+	background: linear-gradient(120deg,  #020202, #8A0808);
+}
+
+.black-pink{
+	background: linear-gradient(120deg,  #de6262, #8A0808);
+}
+
+.orange-black{
+	background: linear-gradient(120deg,  #cc610a, #020202);
+}
+
+.blue-green{
+	background: linear-gradient(120deg, #061d36, #09290e);
+}
+
+.black-green{
+	background: linear-gradient(120deg, #020202, #09290e);
+}
+
+.sand{
+	background: linear-gradient(120deg, #e9c46a, #020202);
+}
+
+.white-gray{
+	background: linear-gradient(120deg, #bdc3c7, #2c3e50);
+}
+
+.pink-purple{
+	background: linear-gradient(120deg, #cc2b5e, #753a88);
+}
+
+.purple-black{
+	background: linear-gradient(120deg, #42275a, #121212);
+}
+
+.pink-pinklight{
+	background: linear-gradient(120deg, #de6262, #ffb88c);
+}
+
+.blue-bluelight{
+	background: linear-gradient(120deg, #2193b0, #6dd5ed);
+}
+
+/*Position Class*/
+
+
+.invert img{
+	top: -22px;
+	left: -8%;
+	right: unset;
+	margin-left: 120px;
+}
+
+.invert #text{
+	top: 0px;
+	right: -30px;
+	left: unset;
+}
+
+/* -- LITTLE BOX -- */
+
+.content{
+	margin: 10px auto;
+	width: 1200px;
+}
+
+.content h1{
+	color: #fff;
+	margin-left: 10px;
+	font-size: 1em;
+	padding: 10px 0px;
+}
+
+.sub-content{
+	position: relative;
+	display: inline-block;
+	width: 1100px;
+	margin: 0 50px;
+}
+
+.little-box{
+	width: 200px;
+	height: 270px;
+	background: no-repeat top left;
+	margin: 10px;
+	float: left;
+}
+
+.little-box h1{
+	margin-top: 113%;
+	font-size: 1em;
+	color: white;
+	text-align: center;
+	background: black;
+	padding: 10px;
+}
+
+.little-box:hover {
+	box-shadow: 5px 5px 0px purple;
+	position: relative;
+	top: -5px;
+	right: 5px;
+	transition: all 0.2s;
+}
